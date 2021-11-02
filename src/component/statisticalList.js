@@ -6,16 +6,14 @@ export default function Statistics(label, percentage) {
         <section className="statistics">
             <h2 className="title">Upload stats</h2>
             <ul className="stat-list">
-                {
-                    colors.map(color => {
+                {colors.map(color => {
                     return (
                         <li key={color.id} className="item-statistic" style={{ backgroundColor: randomColor() }}>
                             <span className="label">{color.label}</span>
                             <span className="percentage">{color.percentage}</span>
                         </li>
                         )
-                    })
-                }
+                    })}
             </ul>
         </section>
     )

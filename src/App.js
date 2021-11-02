@@ -15,13 +15,13 @@ export default function App() {
   followers={user.stats.followers}
   views={user.stats.views}
   likes={user.stats.likes}
-    />
+  />
 
   <Statistics />
   
   <FriendList/>
       
   <TransactionHistory />
-  </div>  
+    </div>
   )
 }

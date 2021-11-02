@@ -20,8 +20,8 @@ export default function TransactionHistory() {
             <td className="cell">{card.currency}</td>
           </tr>
         )
-      }
-      )}
+      })}
       </tbody>
-    </table>)
+    </table>
+  )
 }
